@@ -1,1 +1,44 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Jupyter Notebooks and checkpoints
+.ipynb_checkpoints/
+
+# Data directories (Never commit massive datasets)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.jsonl
+
+# Machine Learning Artifacts (Models and weights)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Experiment Tracking (MLflow, DVC, etc.)
+mlruns/
+.mlflow/
+.dvc/cache/
+
+# Local configurations and secret keys
+.env
+.env.*
+secrets/
+configs/local_config.yaml
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
